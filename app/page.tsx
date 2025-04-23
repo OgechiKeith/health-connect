@@ -415,7 +415,7 @@ export default function Home() {
                 <Link href="/register">Create Account</Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="bg-transparent">
-                <Link href="/contact">Contact Sales</Link>
+                
               </Button>
             </div>
           </div>

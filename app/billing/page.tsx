@@ -33,7 +33,7 @@ export default function BillingPage() {
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">18</div>
-              <p className="text-xs text-muted-foreground">$4,250 total outstanding</p>
+              <p className="text-xs text-muted-foreground">£4,250 total outstanding</p>
             </CardContent>
           </Card>
           <Card>
@@ -42,7 +42,7 @@ export default function BillingPage() {
               <CreditCard className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">$1,240</div>
+              <div className="text-2xl font-bold">£1,240</div>
               <p className="text-xs text-muted-foreground">8 transactions processed</p>
             </CardContent>
           </Card>
@@ -52,7 +52,7 @@ export default function BillingPage() {
               <DollarSign className="h-4 w-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">$28,450</div>
+              <div className="text-2xl font-bold">£28,450</div>
               <p className="text-xs text-muted-foreground">+12% from last month</p>
             </CardContent>
           </Card>
@@ -63,7 +63,7 @@ export default function BillingPage() {
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">5</div>
-              <p className="text-xs text-muted-foreground">$1,850 past due for 30+ days</p>
+              <p className="text-xs text-muted-foreground">£1,850 past due for 30+ days</p>
             </CardContent>
           </Card>
         </div>
@@ -94,7 +94,7 @@ export default function BillingPage() {
                           <Badge variant="outline">Pending</Badge>
                         </div>
                         <p className="text-sm text-muted-foreground">
-                          Invoice #INV-2023-001 • $120.00 • Due: 06/15/2023
+                          Invoice #INV-2023-001 • £120.00 • Due: 06/15/2023
                         </p>
                       </div>
                       <div className="flex gap-2">
@@ -111,7 +111,7 @@ export default function BillingPage() {
                           <Badge variant="outline">Pending</Badge>
                         </div>
                         <p className="text-sm text-muted-foreground">
-                          Invoice #INV-2023-002 • $85.50 • Due: 06/23/2023
+                          Invoice #INV-2023-002 • £85.50 • Due: 06/23/2023
                         </p>
                       </div>
                       <div className="flex gap-2">
@@ -149,7 +149,7 @@ export default function BillingPage() {
                           </Badge>
                         </div>
                         <p className="text-sm text-muted-foreground">
-                          Invoice #INV-2023-004 • $75.00 • Paid: 05/17/2023
+                          Invoice #INV-2023-004 • £75.00 • Paid: 05/17/2023
                         </p>
                       </div>
                       <div className="flex gap-2">
@@ -187,7 +187,7 @@ export default function BillingPage() {
                       <div className="grid gap-1">
                         <p className="font-medium">Sarah Johnson</p>
                         <p className="text-sm text-muted-foreground">
-                          Payment #PAY-2023-001 • $120.00 • Method: Credit Card
+                          Payment #PAY-2023-001 • £120.00 • Method: Credit Card
                         </p>
                       </div>
                       <Button variant="outline" size="sm">
@@ -198,7 +198,7 @@ export default function BillingPage() {
                       <div className="grid gap-1">
                         <p className="font-medium">Michael Chen</p>
                         <p className="text-sm text-muted-foreground">
-                          Payment #PAY-2023-002 • $85.50 • Method: Insurance
+                          Payment #PAY-2023-002 • £85.50 • Method: Insurance
                         </p>
                       </div>
                       <Button variant="outline" size="sm">
@@ -209,7 +209,7 @@ export default function BillingPage() {
                       <div className="grid gap-1">
                         <p className="font-medium">Emily Rodriguez</p>
                         <p className="text-sm text-muted-foreground">
-                          Payment #PAY-2023-003 • $75.00 • Method: Online Payment
+                          Payment #PAY-2023-003 • £75.00 • Method: Online Payment
                         </p>
                       </div>
                       <Button variant="outline" size="sm">
@@ -219,7 +219,7 @@ export default function BillingPage() {
                     <div className="flex items-center justify-between p-4">
                       <div className="grid gap-1">
                         <p className="font-medium">Jessica Thompson</p>
-                        <p className="text-sm text-muted-foreground">Payment #PAY-2023-004 • $150.00 • Method: Check</p>
+                        <p className="text-sm text-muted-foreground">Payment #PAY-2023-004 • £150.00 • Method: Check</p>
                       </div>
                       <Button variant="outline" size="sm">
                         View Details
@@ -249,7 +249,7 @@ export default function BillingPage() {
                           <Badge variant="outline">Submitted</Badge>
                         </div>
                         <p className="text-sm text-muted-foreground">
-                          Claim #CLM-2023-001 • $350.00 • Blue Cross Blue Shield
+                          Claim #CLM-2023-001 • £350.00 • Blue Cross Blue Shield
                         </p>
                       </div>
                       <Button variant="outline" size="sm">
@@ -264,7 +264,7 @@ export default function BillingPage() {
                             Approved
                           </Badge>
                         </div>
-                        <p className="text-sm text-muted-foreground">Claim #CLM-2023-002 • $425.00 • Aetna</p>
+                        <p className="text-sm text-muted-foreground">Claim #CLM-2023-002 • £425.00 • Aetna</p>
                       </div>
                       <Button variant="outline" size="sm">
                         View Details
@@ -278,7 +278,7 @@ export default function BillingPage() {
                             Pending Review
                           </Badge>
                         </div>
-                        <p className="text-sm text-muted-foreground">Claim #CLM-2023-003 • $550.00 • Medicare</p>
+                        <p className="text-sm text-muted-foreground">Claim #CLM-2023-003 • £550.00 • Medicare</p>
                       </div>
                       <Button variant="outline" size="sm">
                         Track Status
@@ -293,7 +293,7 @@ export default function BillingPage() {
                           </Badge>
                         </div>
                         <p className="text-sm text-muted-foreground">
-                          Claim #CLM-2023-004 • $275.00 • United Healthcare
+                          Claim #CLM-2023-004 • £275.00 • United Healthcare
                         </p>
                       </div>
                       <div className="flex gap-2">
@@ -328,15 +328,15 @@ export default function BillingPage() {
                         <div className="mt-4 space-y-2">
                           <div className="flex justify-between text-sm">
                             <span>Total Revenue (MTD):</span>
-                            <span className="font-medium">$28,450</span>
+                            <span className="font-medium">£28,450</span>
                           </div>
                           <div className="flex justify-between text-sm">
                             <span>Outstanding Invoices:</span>
-                            <span className="font-medium">$4,250</span>
+                            <span className="font-medium">£4,250</span>
                           </div>
                           <div className="flex justify-between text-sm">
                             <span>Insurance Claims Pending:</span>
-                            <span className="font-medium">$12,750</span>
+                            <span className="font-medium">£12,750</span>
                           </div>
                         </div>
                       </CardContent>
