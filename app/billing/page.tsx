@@ -130,7 +130,7 @@ export default function BillingPage() {
                           </Badge>
                         </div>
                         <p className="text-sm text-muted-foreground">
-                          Invoice #INV-2023-003 • $250.00 • Due: 05/04/2023
+                          Invoice #INV-2023-003 • £250.00 • Due: 05/04/2023
                         </p>
                       </div>
                       <div className="flex gap-2">
